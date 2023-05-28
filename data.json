@@ -1,0 +1,60 @@
+{
+    "user": {
+        "titleBootstrap": "WELCOME TO BOOTSTRAP!",
+        "titleMaterialize": "WELCOME TO MATERIALIZE!",
+        "boottitle": "Bootstrap Website",
+        "mattitle": "Matrialize Website",
+        "hometitle": "Home",
+        "fullName": "Thizwilondi Prince Makhesha",
+        "Gender": "Gender: Male",
+        "Nationality": "Nationality: South African",
+        "Occupation": "Occupation: UJ WRP Student",
+        "ContactNumbers": "Contact: +27(076) 610 8815",
+        "Email": "Email: princemakhesha@gmail.com",
+        "Location": "Location: Johannesburg, South Africa",
+        "Hobbies": "Hobbies: Chess, Coding, and Research Writting.",
+        "Skills": "Skills: E-Views, Microsoft, Python, Graphic design, and Git. ",
+        "photo": "images/croped.jpeg"
+    },
+    "city": {
+        "name": "City of Cape Town",
+        "photo": "Cape-Town.webp",
+        "description": "Cape Town is situated on the Cape Peninsula, a narrow strip of land that extends into the Atlantic Ocean. The city is surrounded by iconic landmarks such as Table Mountain, Lion's Head, and Signal Hill. It has a coastline that stretches along the Atlantic Seaboard and is famous for its picturesque beaches, including Clifton Beach and Camps Bay.",
+        "adddescription": "One of Cape Town's most iconic landmarks, Table Mountain stands majestically in the backdrop of the city. Its flat-topped summit offers panoramic views of the surrounding areas and is a popular destination for hiking and cable car rides, The Atlantic Ocean is a popular spot to watch the sunset or enjoy a picnic while taking in the city's beauty."
+    },
+    "foreignLanguage": {
+        "language": "Language: Spanish",
+        "Description": "I would like to learn Spanish because it is the second most widely spoken language in the world, with over 460 million native speakers. Learning Spanish opens up a vast network of people with whom i can communicate with, whether for personal or professional purposes.",
+        "phrases": [
+            {
+                "englishPhrase": "Thank you",
+                "foreignLanguage": "Gracias"
+            },
+            {
+                "englishPhrase": "Im sorry",
+                "foreignLanguage": "Lo siento"
+            },
+            {
+                "englishPhrase": "I love you",
+                "foreignLanguage": "Te Amo"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "Advanced Microeconomics",
+            "description": "This  is a branch of economics that builds upon the foundational concepts of microeconomics to explore more complex economic phenomena and decision-making processes. It delves into the behavior of individual economic agents, such as consumers, firms, and resource owners, and analyzes their interactions in various market structures.",
+            "photo": "images/microeconomics.webp"
+        },
+        {
+            "name": "Advanced Macroeconomics",
+            "description": "Advanced macroeconomics is a branch of economics that focuses on the study of the economy as a whole. It builds upon the foundational concepts of macroeconomics to analyze complex macroeconomic phenomena, policy issues, and long-term economic growth.",
+            "photo": "images/macroeconomics.jpg"
+        },
+        {
+            "name": "Monetary Economics",
+            "description": "Monetary economics is a branch of economics that focuses on the role of money, central banks, and monetary policy in the economy. It examines how money affects economic variables such as prices, inflation, interest rates, output, and employment. Monetary economics investigates the behavior of individuals, firms, and financial institutions in relation to money and the implications of monetary policy decisions.",
+            "photo": "images/monetary.jpg"
+        }
+    ]
+}
