@@ -1,18 +1,27 @@
 import handlebars from 'vite-plugin-handlebars';
 
-// import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 
 
-import data from "./data.json" assert {type:'json'};
+import data from "./data.json" assert {type: 'json'};
 
-export default {
-    // base: '/responsive_webpages/',
-    plugins: [handlebars({
-      context : {
-          data
-      }
-    })],
-  };
+export default defineConfig({
+  base: '/responsive_webpages/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        bootstrap: 'index-Bootstrap.html',
+        materialize: 'index-Materialize.html',
+      }
+    },
+  },
+  plugins: [handlebars({
+    context: {
+      data
+    }
+  })],
+});
 
 // export default defineConfig({
 //   // config attributes goes here
