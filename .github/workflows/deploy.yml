@@ -49,16 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-Tools Setup overview
-Tools Setup
-Creating responsive web pages
-Reponsive web pages with ViteJS & Handlebars
-Overview of what you will learn & do
-Handlebars templates with ViteJS
-Handlebars basics
-Creating personal web pages
-Add two other JSON files
-Deployment
-Unit testing with MochaJS
-
